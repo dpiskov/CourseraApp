@@ -1,4 +1,8 @@
-﻿namespace CourseraApp
+﻿using CourseraApp.Data;
+using CourseraApp.Models;
+using CourseraApp.Services;
+
+namespace CourseraApp
 {
     internal class Program
     {

@@ -5,16 +5,6 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseraApp", "CourseraApp\CourseraApp.csproj", "{2688B332-AE90-457C-A4DA-A59F76BB9F1A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseraApp.Models", "CourseraApp.Models\CourseraApp.Models.csproj", "{601F124D-07D2-4A0A-B090-75126F6E0B85}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseraApp.Data", "CourseraApp.Data\CourseraApp.Data.csproj", "{1EB6F8BD-3FF6-4544-8CBF-48E48CEC2179}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseraApp.Services", "CourseraApp.Services\CourseraApp.Services.csproj", "{7EE8C7F3-4996-4BE8-B897-E516199EA507}"
-	ProjectSection(ProjectDependencies) = postProject
-		{2688B332-AE90-457C-A4DA-A59F76BB9F1A} = {2688B332-AE90-457C-A4DA-A59F76BB9F1A}
-		{601F124D-07D2-4A0A-B090-75126F6E0B85} = {601F124D-07D2-4A0A-B090-75126F6E0B85}
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,18 +15,6 @@ Global
 		{2688B332-AE90-457C-A4DA-A59F76BB9F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2688B332-AE90-457C-A4DA-A59F76BB9F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2688B332-AE90-457C-A4DA-A59F76BB9F1A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{601F124D-07D2-4A0A-B090-75126F6E0B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{601F124D-07D2-4A0A-B090-75126F6E0B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{601F124D-07D2-4A0A-B090-75126F6E0B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{601F124D-07D2-4A0A-B090-75126F6E0B85}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1EB6F8BD-3FF6-4544-8CBF-48E48CEC2179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EB6F8BD-3FF6-4544-8CBF-48E48CEC2179}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EB6F8BD-3FF6-4544-8CBF-48E48CEC2179}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EB6F8BD-3FF6-4544-8CBF-48E48CEC2179}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7EE8C7F3-4996-4BE8-B897-E516199EA507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7EE8C7F3-4996-4BE8-B897-E516199EA507}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7EE8C7F3-4996-4BE8-B897-E516199EA507}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7EE8C7F3-4996-4BE8-B897-E516199EA507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
